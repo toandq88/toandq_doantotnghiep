@@ -1,0 +1,13 @@
+# kiểm tra mod_rewrite có hỗ trợ không
+<IfModule mod_rewrite.c>
+    #bật chức năng mode_rewrite
+    RewriteEngine on
+    # if a directory or a file exists, use it directly
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    # otherwise forward it to index.php
+    RewriteRule . index.php
+</IfModule>
+
+##Không cho phép truy cập vào các thư mục -- chứa ảnh...
+Options -Indexes

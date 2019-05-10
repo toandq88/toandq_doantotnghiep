@@ -1,0 +1,24 @@
+.navbar-2 {
+    overflow: hidden;
+    top: 10px;
+    position: fixed;
+    width: 70%;
+    z-index: 2526; 
+}
+
+.navbar-2 a {
+    float: left;
+    display: block;
+    color: #9fcdff;
+    text-align: center;
+    padding: 0px 16px 5px 0px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.navbar-2 a:hover {
+    color: #C6E746;
+}
+@media screen and (max-width: 1200px) {
+    .navbar-2 {display: none;}
+}

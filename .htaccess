@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URL} ^!public
+RewriteRule ^backend(.*)$ backend/web/$1 [L,PT] 
+RewriteRule ^(.*)$ frontend/web/$1 [L,QSA] 
+
+##Không cho phép truy cập vào các thư mục -- chứa ảnh...
+Options -Indexes

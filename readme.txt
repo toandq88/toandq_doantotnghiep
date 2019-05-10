@@ -1,0 +1,57 @@
+
+ok. Chi tiết thông tin của cầu có đầy đủ các nội dung (Xuất hiện bản đồ, hình ảnh);
+ok. Mỗi kết cấu nhịp có 01 ảnh sơ họa.
+ok. Bổ sung thêm hình ảnh cầu, ảnh kiểm tra, bảo trì...
+ok. Textarea Editor
+ok. Xóa thông tin chính khi không có thông tin con (Đơn vị, Tuyến đường, Cầu, Mức độ kiểm tra, Mức độ bảo trì, Người sử dụng);
+ok. Báo cáo chi tiết cầu theo mẫu hồ sơ, danh sách cầu, kiểm tra, bảo trì.
+ok. Kiểm tra kết cấu dưới - mố: chỉ có M0 và M1.
+ok. Trang chủ xuất hiện bản đồ cầu, thông tin kiểm tra và bảo trì mới nhất.
+ok. cau_loaicau -> thongtinchung
+ok. Khi sửa chữa cho đợt kiểm tra, cần update lại tình trạng kiểm tra.
+ok. Date range search with $gridColumns
+ok. Test Các ô nhập giá trị tìm kiếm trên $gridColumns.
+ok. Kiểm tra lại dữ liệu databases hiện tại.
+ok. Lựa chọn col để xuất báo cáo.
+ok. Chọn đợt kiểm tra đối với Thông tin kiểm tra chuyển tiếp luôn sang thông tin bảo trì nếu cần bảo trì, hoặc khi cập nhật lại thông tin bảo trì.
+ok. Tùy chỉnh lại báo cáo (phần ảnh)
+
+
+Có thể cần nghiên cứu thêm:
++ Chi tiết cầu cho các bảng trượt ngang trên giao diện điện thoại;
++ Upload multi ảnh, required cho textarea editor;
++ Phân quyền cho người sử dụng.
++ Tìm kiếm theo listbox trên $gridColumns.
+
+
+13/5/2015. Nộp qua mail
+9h: 30, 15/5/2015. Lên Khoa báo cáo Thầy.
+
+
+1. Nội dung bảo trì, bảo dưỡng, sửa chữa:
++ Vệ sinh bề mặt; vệ sinh, vệ sinh các rãnh, ống thoát nước bề mặt cầu;
++ Khơi thông dòng chảy dưới cầu (nếu vượt qua sông suối); 
++ Vệ sinh dọn dẹp dưới cầu (nếu vượt qua bãi đất trống, đồng cỏ, ao hồ...)
++ Bảo trì, bảo dưỡng (sơn lại lan can, mắt phản quang, ...);
++ Sửa chữa nhỏ (<= 500tr);
++ Sửa chữa lớn (Trên 500 tr);
+
+2. Quy trình sửa chữa, nâng cấp:
++ Kiểm tra, xác nhận;
++ Báo cáo đơn vị quản lý;
++ Chỉ đạo lập phương án, dự toán, báo cáo kinh tế kỹ thuật;
++ Trình phương án, dự toán;
++ Thẩm tra, thẩm định phương án dự toán;
++ Phê duyệt phương án, dự toán, phương án lựa chọn đơn vị;
++ Lựa chọn đơn vị thực hiện (chỉ định thầu hoặc đấu thầu);
+    + Trình HĐTV chấp thuận chủ trương (nếu đấu thầu);
+    + HĐTV chấp thuận;
+    + Phát hành hồ sơ mời thầu;
+    + Đánh giá hồ sơ dự thầu;
+    + Lựa chọn nhà thầu;
+    + Đàm phán;
+    + Trình HĐTV kết quả lựa chọn nhà thầu;
+    + HĐTV chấp thuận;
+    + Ký hợp đồng;
++ Sửa chữa, nâng cấp;
++ Nghiệm thu, Bàn giao đưa vào sử dụng.
