@@ -44,7 +44,7 @@ Có thể cần nghiên cứu thêm:
 + Thẩm tra, thẩm định phương án dự toán;
 + Phê duyệt phương án, dự toán, phương án lựa chọn đơn vị;
 + Lựa chọn đơn vị thực hiện (chỉ định thầu hoặc đấu thầu);
-    + Trình HĐTV chấp thuận chủ trương (nếu đấu thầu);
+    + Trình HĐTV chấp thuận chủ trương và kế hoạch lựa chọn nhà thầu (nếu đấu thầu);
     + HĐTV chấp thuận;
     + Phát hành hồ sơ mời thầu;
     + Đánh giá hồ sơ dự thầu;
@@ -58,6 +58,3 @@ Có thể cần nghiên cứu thêm:
 
 
 Ngày 10/5/2019 đã cập nhật lên GitHub!
-Test thử xem đã cập nhật cái gì lên chưa!
-
-Chỉnh sửa nội dung trên GitHub!

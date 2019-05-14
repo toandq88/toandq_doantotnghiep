@@ -78,7 +78,7 @@ class CauHinhanhController extends Controller {
     public function actionCreate() {
         $model = new CauHinhanh();
         $model->scenario = "create";    //Chỉ required khi tạo mới
-        
+
         if ($model->load(Yii::$app->request->post())) {
             //get the instance of the upload file
             $imageName = 'vecm-' . date('Ymdhis', time()) . '_' . rand(111, 999);
@@ -113,7 +113,7 @@ class CauHinhanhController extends Controller {
 
         if ($model->load(Yii::$app->request->post())) {
             //get the instance of the upload file
-            if ($file_exist != '') {
+            if ($file_exist != '' && $model->file) {
                 $imageName = substr($file_exist, 0, strlen($file_exist) - 4);
                 $directory = 'uploads\images\cau\\' . $file_exist;
                 @unlink($directory);     //Xóa file ảnh đại diện nếu có

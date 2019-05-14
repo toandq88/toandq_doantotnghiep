@@ -899,7 +899,7 @@ use frontend\models\MucDoKiemTra;
                     <tr>
                         <td style="text-align:center"><?=$i?></td>
                         <td style="text-align:center; padding: 10px;">
-                            <img src="<?= Yii::$app->homeUrl . '/uploads/images/cau/' . $list->file ?>" style="width:96%; height: 440px;">
+                            <img src="<?= Yii::$app->homeUrl . '/uploads/images/cau/' . $list->file ?>" style="width:60%;">
                         </td>
                         <td style="text-align:left; padding: 10px;"><?= $list->noidung ?></td>
                     </tr>
