@@ -79,7 +79,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'contentOptions' => ['style' => 'text-align:left;'],
                 'format' => 'html',
                 'value' => function ($model) {
-                    return Yii::$app->toandq->_substr($model->ketluan, 100);
+                    return Yii::$app->toandq->_substr($model->ketluan, 40);
                 },
             ],
             [

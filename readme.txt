@@ -16,17 +16,13 @@ ok. Lựa chọn col để xuất báo cáo.
 ok. Chọn đợt kiểm tra đối với Thông tin kiểm tra chuyển tiếp luôn sang thông tin bảo trì nếu cần bảo trì, hoặc khi cập nhật lại thông tin bảo trì.
 ok. Tùy chỉnh lại báo cáo (phần ảnh)
 
-
 Có thể cần nghiên cứu thêm:
-+ Chi tiết cầu cho các bảng trượt ngang trên giao diện điện thoại;
 + Upload multi ảnh, required cho textarea editor;
 + Phân quyền cho người sử dụng.
 + Tìm kiếm theo listbox trên $gridColumns.
 
-
 13/5/2015. Nộp qua mail
 9h: 30, 15/5/2015. Lên Khoa báo cáo Thầy.
-
 
 1. Nội dung bảo trì, bảo dưỡng, sửa chữa:
 + Vệ sinh bề mặt; vệ sinh, vệ sinh các rãnh, ống thoát nước bề mặt cầu;

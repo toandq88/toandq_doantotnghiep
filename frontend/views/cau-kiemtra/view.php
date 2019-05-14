@@ -16,9 +16,14 @@ $this->params['breadcrumbs'][] = $this->title;
             <h4><?= Html::encode($this->title) ?></h4>
         </div>
         <div class="col-lg-6" style="float: right; text-align: right">
-            <?= Html::a(' ', ['cau-baotri/create', 'id_check' => $model->id_kiemtra, 'id_bridge' => $model->id_cau],['title' => 'Cập nhật thông tin bảo trì / sửa chữa', 'class' => 'glyphicon glyphicon-cog btn btn-success']) ?>
-            <?= Html::a(' ', ['update', 'id' => $model->id_kiemtra], ['class' => 'glyphicon glyphicon-pencil btn btn-primary']) ?>
-            <?php
+        <?php
+        if($model -> cansuachua != 2)
+        {
+            if($model -> cansuachua == 1)
+            {
+                echo Html::a(' ', ['cau-baotri/create', 'id_check' => $model->id_kiemtra, 'id_bridge' => $model->id_cau],['title' => 'Cập nhật thông tin bảo trì / sửa chữa', 'class' => 'glyphicon glyphicon-cog btn btn-success']);
+            }
+            echo Html::a(' ', ['update', 'id' => $model->id_kiemtra], ['class' => 'glyphicon glyphicon-pencil btn btn-primary']);
             echo Html::a(' ', ['delete', 'id' => $model->id_kiemtra], [
                 'class' => 'glyphicon glyphicon-trash btn btn-danger',
                 'data' => [
@@ -26,7 +31,8 @@ $this->params['breadcrumbs'][] = $this->title;
                 'method' => 'post',
                 ],
                 ]);
-            ?>
+        }
+        ?>
         </div>
     </div>
 

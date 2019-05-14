@@ -113,7 +113,7 @@ class CauBaotri extends \yii\db\ActiveRecord {
     
     //Lấy 8 thông tin bảo trì mới nhất
     public function getTop5() {
-        return CauBaotri::find()->where([])->limit(7)->orderBy(['id_baotri' => SORT_DESC])->all();
+        return CauBaotri::find()->where([])->limit(5)->orderBy(['id_baotri' => SORT_DESC])->all();
     }
     
     //số bản ghi- kiểm tra trước khi xóa người dùng
