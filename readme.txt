@@ -68,4 +68,4 @@ IV/ Báo cáo kết quả thực hiện
         + Nộp báo cáo.
 
 V/ Các nội dung khác
-    - Ngày 10/5/2019 đã cập nhật lên GitHub!
+    - Ngày 10/5/2019 đã cập nhật toàn bộ code lên GitHub!
