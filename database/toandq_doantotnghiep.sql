@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th5 10, 2019 lúc 05:08 AM
+-- Thời gian đã tạo: Th5 14, 2019 lúc 11:35 AM
 -- Phiên bản máy phục vụ: 10.1.37-MariaDB
 -- Phiên bản PHP: 7.3.0
 
@@ -4275,10 +4275,7 @@ CREATE TABLE `tb_hinhanh` (
 --
 
 INSERT INTO `tb_hinhanh` (`id_hinhanh`, `id_cau`, `file`, `noidung`, `loai`) VALUES
-(106, 15, 'vecm-20161226150422_0.jpg', 'Hình ảnh cầu đường bộ', 'CAU_DOC'),
-(158, 26, 'vecm-20170103135029_0.jpg', 'Hình ảnh cầu đường bộ', 'CAU_NGANG'),
-(160, 30, 'vecm-20170103135431_0.jpg', 'Hình ảnh thông tin tên cầu', 'CAU'),
-(163, 31, 'vecm-20170103140226_0.jpg', 'Hình ảnh cầu đường bộ trên bề mặt cầu', 'CAU'),
+(106, 15, 'vecm-20161226150422_0.jpg', 'Nội dung cho hình ảnh', 'CAU_DOC'),
 (164, 32, 'vecm-20170103140443_0.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
 (166, 34, 'vecm-20170103140827_0.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
 (167, 35, 'vecm-20170103140948_0.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
@@ -4349,7 +4346,7 @@ INSERT INTO `tb_hinhanh` (`id_hinhanh`, `id_cau`, `file`, `noidung`, `loai`) VAL
 (1106, 88, 'vecm-20170413104139_0.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
 (1107, 88, 'vecm-20170413104154_0.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
 (1108, 88, 'vecm-20170413104154_1.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
-(1488, 2, 'vecm-20170413165226_4.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
+(1488, 2, 'vecm-20170413165226_4.jpg', 'Hình ảnh mặt cầu bao gồm biển báo tên cầu', 'CAU'),
 (1496, 10, 'vecm-20170413170049_0.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
 (1497, 11, 'vecm-20170413170134_0.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
 (1522, 76, 'vecm-2017041491650_0.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
@@ -4506,9 +4503,9 @@ INSERT INTO `tb_hinhanh` (`id_hinhanh`, `id_cau`, `file`, `noidung`, `loai`) VAL
 (4108, 3, 'vecm-20170613143034_2.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
 (4109, 3, 'vecm-20170613143034_3.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
 (4110, 3, 'vecm-20170613143034_4.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
-(4111, 2, 'vecm-20170613143108_0.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
-(4112, 2, 'vecm-20170613143108_1.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
-(4113, 2, 'vecm-20170613143108_2.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
+(4111, 2, 'vecm-20170613143108_0.jpg', 'Hình ảnh cầu bao gồm tất cả các trụ (nhìn từ phía phải làn đường)', 'CAU'),
+(4112, 2, 'vecm-20170613143108_1.jpg', 'Hình ảnh mặt đường trên cầu', 'CAU'),
+(4113, 2, 'vecm-20170613143108_2.jpg', 'Hình ảnh cầu bao gồm tất cả các trụ (nhìn từ phía trái đường)', 'CAU'),
 (4120, 6, 'vecm-20170613144507_0.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
 (4121, 6, 'vecm-20170613144507_1.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
 (4122, 6, 'vecm-20170613144507_2.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
@@ -4887,9 +4884,9 @@ INSERT INTO `tb_hinhanh` (`id_hinhanh`, `id_cau`, `file`, `noidung`, `loai`) VAL
 (5968, 170, 'vecm-20180825111752_1.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
 (5969, 170, 'vecm-20180825111752_2.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
 (5970, 170, 'vecm-20180825111752_3.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
-(5971, 170, 'vecm-20180825111752_4.jpg', 'Hình ảnh cầu đường bộ', 'CAU'),
-(5972, 2, 'vecm-20190422051701_437.png', 'Ảnh cắt dọc cầu', 'CAU_DOC'),
-(5973, 2, 'vecm-20190422051720_532.png', 'Ảnh cắt ngang cầu', 'CAU_NGANG');
+(5971, 170, 'vecm-20190514032933_675.jpg', 'Test nội dung', 'CAU'),
+(5972, 2, 'vecm-20190422051701_437.png', 'Ảnh sơ họa cắt dọc cầu', 'CAU_DOC'),
+(5973, 2, 'vecm-20190422051720_532.png', 'Ảnh sơ họa cắt ngang cầu', 'CAU_NGANG');
 
 -- --------------------------------------------------------
 
