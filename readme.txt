@@ -22,7 +22,7 @@ Có thể cần nghiên cứu thêm:
 + Tìm kiếm theo listbox trên $gridColumns.
 
 13/5/2015. Nộp qua mail
-9h: 30, 15/5/2015. Lên Khoa báo cáo Thầy.
+9h: 30, 15/5/2015. Lên Khoa CNTT báo cáo Thầy kết quả thực hiện.
 
 1. Nội dung bảo trì, bảo dưỡng, sửa chữa:
 + Vệ sinh bề mặt; vệ sinh, vệ sinh các rãnh, ống thoát nước bề mặt cầu;
@@ -52,5 +52,10 @@ Có thể cần nghiên cứu thêm:
 + Sửa chữa, nâng cấp;
 + Nghiệm thu, Bàn giao đưa vào sử dụng.
 
-
 Ngày 10/5/2019 đã cập nhật lên GitHub!
+
+- So sanh cac framework.
+- Chuc nang cho giao dien;
+- Đánh giá, hướng phát triển -> Kết luận
+
+- Cài đặt... -> Một số kết quả đạt được.
