@@ -21,6 +21,8 @@ II/ Các nội dung Có thể cần nghiên cứu thêm
     + Upload multi ảnh, required cho textarea editor;
     + Phân quyền cho người sử dụng.
     + Tìm kiếm theo listbox trên $gridColumns.
+    - Phần tùy chọn:
+    + 
 
 III/ Liên quan đến vấn đề Phân tích Thiết kế hệ thống
     1. Nội dung bảo trì, bảo dưỡng, sửa chữa:
@@ -69,3 +71,10 @@ IV/ Báo cáo kết quả thực hiện
 
 V/ Các nội dung khác
     - Ngày 10/5/2019 đã cập nhật toàn bộ code lên GitHub!
+
+    - Chỉ số TIOBE là một chỉ số về sự phổ biến của các ngôn ngữ lập trình, được cập nhật mỗi tháng một lần. 
+    Xếp hạng dựa trên khỏa sát số kỹ sư có kỹ năng trên toàn thế giới, các khóa học và các nhà cung cấp bên thứ ba. 
+    Các công cụ tìm kiếm phổ biến như Google, Bing, Yahoo !, Wikipedia, Amazon, YouTube và Baidu được sử dụng để tính toán xếp hạng. 
+    Điều quan trọng cần lưu ý là chỉ số TIOBE không phải là về ngôn ngữ lập trình tốt nhất hoặc ngôn ngữ đã được sử dụng để viết code phổ biến nhất.
+    - Chỉ số ngôn ngữ lập trình PYPL mức độ phổ biến được tạo ra bằng cách phân tích tần suất tìm kiếm hướng dẫn ngôn ngữ trên Google: 
+    càng nhiều hướng dẫn ngôn ngữ được tìm kiếm, ngôn ngữ càng được coi là phổ biến. Nó là một chỉ số hàng đầu. Dữ liệu thô đến từ Google Xu hướng.
