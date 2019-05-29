@@ -78,3 +78,7 @@ V/ Các nội dung khác
     Điều quan trọng cần lưu ý là chỉ số TIOBE không phải là về ngôn ngữ lập trình tốt nhất hoặc ngôn ngữ đã được sử dụng để viết code phổ biến nhất.
     - Chỉ số ngôn ngữ lập trình PYPL mức độ phổ biến được tạo ra bằng cách phân tích tần suất tìm kiếm hướng dẫn ngôn ngữ trên Google: 
     càng nhiều hướng dẫn ngôn ngữ được tìm kiếm, ngôn ngữ càng được coi là phổ biến. Nó là một chỉ số hàng đầu. Dữ liệu thô đến từ Google Xu hướng.
+
+    - Link Gii: http://localhost:81/toandq_advanced/frontend/web/gii
+
+    - Remove Yii debug footer: config/main-local.php
