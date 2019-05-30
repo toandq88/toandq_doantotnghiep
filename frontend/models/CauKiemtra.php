@@ -106,7 +106,7 @@ class CauKiemtra extends \yii\db\ActiveRecord {
     
     //Lấy 8 thông tin bảo trì mới nhất
     public function getTop5() {
-        return CauKiemtra::find()->where([])->limit(4)->orderBy(['id_kiemtra' => SORT_DESC])->all();
+        return CauKiemtra::find()->where([])->limit(6)->orderBy(['id_kiemtra' => SORT_DESC])->all();
     }
     
     //số bản ghi- kiểm tra trước khi xóa người dùng
