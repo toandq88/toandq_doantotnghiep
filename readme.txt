@@ -82,3 +82,5 @@ V/ Các nội dung khác
     - Link Gii: http://localhost:81/toandq_advanced/frontend/web/gii
 
     - Remove Yii debug footer: config/main-local.php
+
+    - Link thông tin cầu TCĐBVN: http://221.133.17.100/gplx/default.asp?check_status=00
