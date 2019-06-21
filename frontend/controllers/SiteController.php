@@ -12,11 +12,10 @@ use common\models\LoginForm;
 use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
-use frontend\models\ContactForm;
-use frontend\models\Tuyenduong; //Đếm số tuyến đường cho vào site/index
-use frontend\models\Cau; //Đếm số thông tin cầu cho vào site/index
-use frontend\models\CauKiemtra; //Đếm số thông tin kiểm tra cầu cho vào site/index
-use frontend\models\CauBaotri; //Đếm số thông tin bảo trì cầu cho vào site/index
+use frontend\models\Tuyenduong;
+use frontend\models\Cau;
+use frontend\models\CauKiemtra;
+use frontend\models\CauBaotri;
 
 /**
  * Site controller

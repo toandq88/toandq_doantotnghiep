@@ -154,10 +154,9 @@ class CauKiemtraController extends Controller {
                 $imageName = $model->id_cau . '-' . date('Ymdhis', time()); //đặt tên cho file
                 $file2->saveAs('uploads/images/cau-kiemtra/' . $imageName . '.' . $file2->extension); //upload file mới
                 $model->hinhanh = $imageName . '.' . $file2->extension;   //lấy tên file mới để lưu db
-            } else {
+            } else {    //còn không làm gì thì giữ nguyên
                 $model->hinhanh = $file_exist2;
             }
-            //còn không làm gì thì giữ nguyên
             
             $model->nguoisua = Yii::$app->user->identity->username;
             $model->ngaysua = date('Y-m-d H:i:s', time());
