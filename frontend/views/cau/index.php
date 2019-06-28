@@ -84,8 +84,8 @@ $this->params['breadcrumbs'][] = $this->title;
                 'headerOptions' => ['style' => 'text-align:center;'],
                 'contentOptions' => ['style' => 'text-align:center;'],
                 'value' => function($model) {
-            return number_format($model->chieudai, 2, ',', '') . ' (m)';
-        },
+                    return number_format($model->chieudai, 2, ',', '') . ' (m)';
+                },
             ],
             [
                 'attribute' => 'sonhip',
