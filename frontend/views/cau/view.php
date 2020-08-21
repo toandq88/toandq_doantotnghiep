@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
 $kinhdo = $model->kinhdo;
 $vido = $model->vido;
 
-$this->registerCssFile(Yii::$app->homeUrl . '/toandq/css/w3-slideshow.css');
+$this->registerCssFile(Yii::$app->homeUrl . '/toandq/css/w3-slideshow.css');		//Import css inline
 $this->registerCssFile(Yii::$app->homeUrl . '/toandq/css/menu_fixtop.css');
 ?>
 <div class="row">
